@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <TextView
+        android:id="@+id/separator"
+        style="?android:listSeparatorTextViewStyle"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:clickable="false"
+        android:focusable="false"
+        android:longClickable="false"
+        android:paddingBottom="6dip"
+        android:paddingLeft="10dp"
+        android:paddingTop="20dip"
+        android:text="@string/placeholder"
+        android:textColor="?android:textColorSecondary" />
+
+    <ImageButton
+        android:id="@+id/drag_handle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/selector"
+        android:contentDescription="@string/headerContentDescrp"
+        android:focusable="true"
+        android:onClick="editSitesOnClickHandler"
+        android:paddingRight="48dip"
+        android:paddingTop="12dip"
+        android:showAsAction="ifRoom|withText"
+        android:src="@drawable/ic_action_edit"
+        android:title="@string/action_edit" />
+
+    <TextView
+        android:id="@+id/textoEditar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:background="@android:color/transparent"
+        android:clickable="false"
+        android:focusable="false"
+        android:longClickable="false"
+        android:paddingTop="20dip"
+        android:paddingRight="8dip"
+        android:textSize="12sp"
+        android:text="@string/action_edit"
+        android:textColor="?android:textColorSecondary" />
+
+</RelativeLayout>

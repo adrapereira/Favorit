@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Favorit</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+    <string name="action_refresh">Refresh</string>
+    <string name="action_new">ADICIONAR</string>
+    <string name="action_save">GUARDAR</string>
+    <string name="action_edit">EDITAR</string>
+    <string name="placeholder">placeholder</string>
+    <string name="siteDialogHeader">Adicionar um novo WebSite</string>
+    <string name="siteDialogHeader2">Para adicionar uma categoria deixe o endereço vazio</string>
+    <string name="nomeSite">Título</string>
+    <string name="site">Endereço</string>
+    <string name="add">Adicionar</string>
+    <string name="cancel">Cancelar</string>
+    <string name="headerContentDescrp">botao para editar a listview</string>    
+</resources>
